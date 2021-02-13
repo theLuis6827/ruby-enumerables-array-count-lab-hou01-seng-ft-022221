@@ -6,10 +6,10 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-    count = 0
+  count = 0
   array.each do |x|
-      if x == ""
-        count += 1
+    if x == ""
+      count += 1
     end
   end
   count
