@@ -18,4 +18,13 @@ end
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 
 
-while array < array.count
+def count_empty_strings(array)
+    count = 0
+    x = ""
+    while array < x.count do
+      if x == ""
+        count += 1
+      end
+    end
+    count
+end
