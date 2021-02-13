@@ -11,9 +11,9 @@ def count_empty_strings(array)
       if x.empty?
         count += 1
     end
-  puts count
+
   end
-  # Return the total number of EMPTY strings in the provided array using the count enumerable
+  # Return the total number of EMPTY strings in the provided array using the count enumerable  puts count
 end
 
 
