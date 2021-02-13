@@ -17,3 +17,12 @@ def count_empty_strings(array)
 end
 
 
+def count_empty_strings(array)
+    count = 0
+  array.each do |x|
+      if x.empty?
+        count += 1
+    end
+  end
+  puts count
+end
